@@ -17,18 +17,18 @@ body {
 max-width: 2560px;
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
-  color: #0f0f0f;
-  background-color: #0f0f0f;
+  color: #0c0c0c;
+  background-color: #0c0c0c;
 
 }
 
 p {
-  color: rgb(34, 34, 34);
+  color: #0c0c0c;
 }
 
 h2 {
   font-size: 1.2rem;
-  color: rgb(34, 34, 34);
+  color: #0c0c0c;
 }
 
 /* =====================
@@ -50,8 +50,8 @@ nav {
   justify-content: flex-start; /* ou center, se quiser centralizado */
   align-items: center;
   position: relative;
-  background-color: #131313;
-  padding: 5.5px;
+  background-color: #111111;
+  padding: 0.1px;
 }
 
 
@@ -59,16 +59,7 @@ nav {
 #main-header{
   width: 100%;
 }
-.fecharMenuPC{
-background: #313131;
-padding-left: 20px;
-padding-top: 20px;
-padding-right: 20px;
-padding-bottom: 2.3px;
-width: 76%;
-height: 100%;
-border-radius: 0;
-}
+
 .nav-links {
   display: flex;
   flex-direction: row; /* garante horizontalidade */
@@ -175,7 +166,7 @@ border-radius: 0;
    HERO SECTION
 ======================== */
 .hero {
-  background: #0f0f0f;
+  background: #0c0c0c;
   color: #fff;
   text-align: center;
   line-height: 1.5rem;
@@ -205,10 +196,10 @@ border-radius: 0;
   display: inline-flex;
   gap: 0.5rem;
   color: #a8a8a8;
-  padding: 10px 20px 10px 20px;
+  padding: 5px 10px 5px 10px;
   background: none;
   border: 1px solid white;
-  border-radius: 100px;
+  border-radius: 17px;
   cursor: pointer;
   font-family: 'Poppins', sans-serif;
   transition: box-shadow 0.6s ease;
@@ -232,7 +223,7 @@ border-radius: 0;
 #sobre {
   
   background: #f5f5f5;
-  color: #0f0f0f;
+  color: #0c0c0c;
   padding: 5rem 0;
   width: 100%;
   .profile-box .email {
@@ -243,7 +234,7 @@ border-radius: 0;
 }
 .user-card {
 
-  color:#0f0f0f;
+  color:#0c0c0c;
   border-radius: 12px;
   padding: 1.5rem;
   max-width: 400px;
@@ -266,7 +257,7 @@ border-radius: 0;
 
 .user-name {
   font-size: 1rem;
-  color:#0f0f0f;
+  color:#0c0c0c;
   margin: 0;
 }
 
@@ -479,7 +470,7 @@ border-color: rgb(206, 206, 206);
    FOOTER
 ======================== */
 footer {
-  background-color: #0f0f0f;
+  background-color: #0c0c0c;
   color: #fff;
   text-align: center;
   padding: 1rem 0;
@@ -487,7 +478,7 @@ footer {
   font-size: 0.9rem;
 }
 .site-footer {
-  background-color: #0f0f0f;
+  background-color: #0c0c0c;
   color: white;
   text-align: center;
   padding: 2rem 1rem;
@@ -550,9 +541,9 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #1e1e1e;
+  background-color: #111111;
   justify-content: space-around;
-  padding: 10px 0;
+  padding: 2px 0px 1px 0px;
   border-top: 1px solid #333;
   z-index: 1000;
 }
